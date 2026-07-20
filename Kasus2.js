@@ -42,11 +42,11 @@ cekKelulusan() {
     }
 const siswa1 = new SiswaTelkom("andi", 90);
 siswa1.tampilkanData();
-const siswa1 = new SiswaTelkom("syifaa", 75);
-siswa1.tampilkanData();
-const siswa1 = new SiswaTelkom("cika", 60);
-siswa1.tampilkanData();
-const siswa1 = new SiswaTelkom("ira", 45);
-siswa1.tampilkanData();
-const siswa1 = new SiswaTelkom("sila", 88);
-siswa1.tampilkanData();
+const siswa2 = new SiswaTelkom("syifaa", 75);
+siswa2.tampilkanData();
+const siswa3 = new SiswaTelkom("cika", 60);
+siswa3.tampilkanData();
+const siswa4 = new SiswaTelkom("ira", 45);
+siswa4.tampilkanData();
+const siswa5 = new SiswaTelkom("sila", 88);
+siswa5.tampilkanData();
