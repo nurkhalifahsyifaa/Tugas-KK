@@ -28,8 +28,8 @@ class Siswa {
 }
 
 class SiswaTelkom extends Siswa {
-    constructor(nama, nilai, status) {
-        super(nama, nilai, status);
+    constructor(nama, nilai) {
+        super(nama, nilai);
     }
 
 cekKelulusan() {
@@ -40,18 +40,15 @@ cekKelulusan() {
     }
 }
     }
-const siswa1 = new SiswaTelkom("andi", 90);
-siswa1.tampilkanData();
-console.log("");
-const siswa2 = new SiswaTelkom("syifaa", 75);
-siswa2.tampilkanData();
-console.log("");
-const siswa3 = new SiswaTelkom("cika", 60);
-siswa3.tampilkanData();
-console.log("");
-const siswa4 = new SiswaTelkom("ira", 45);
-siswa4.tampilkanData();
-console.log("");
-const siswa5 = new SiswaTelkom("sila", 88);
-siswa5.tampilkanData();
-console.log("");
+const daftarSiswa = [
+    new SiswaTelkom("andi", 90),
+    new SiswaTelkom("syifaa", 75),
+    new SiswaTelkom("cika", 60),
+    new SiswaTelkom("ira", 45),
+    new SiswaTelkom("sila", 88)
+];
+
+for (let i = 0; i < daftarSiswa.length; i++) {
+    daftarSiswa[i].tampilkanData();
+    console.log(""); 
+}
