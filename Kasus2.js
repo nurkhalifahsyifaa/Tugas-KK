@@ -53,11 +53,12 @@ let jumlahLulus = 0;
 for (let i = 0; i < daftarSiswa.length; i++) {
     daftarSiswa[i].tampilkanData();
     console.log(""); 
-}
+    
     if (daftarSiswa[i].status === "Tidak Lulus") {
         jumlahTidakLulus++;
     } else {
         jumlahLulus++;
     }
+}
 console.log(`Jumlah Siswa Tidak Lulus : ${jumlahTidakLulus} orang`);
 console.log(`Jumlah Siswa Lulus       : ${jumlahLulus} orang`);
