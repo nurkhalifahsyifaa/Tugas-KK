@@ -6,7 +6,6 @@ function hitungTotalBelanja(daftarHarga) {
     return total;
 }
 
-// 2. Fungsi laporan milikmu (SUDAH BENAR)
 function tampilkanLaporan(nama, umur, daftarHarga) {
     const totalHarga = hitungTotalBelanja(daftarHarga);
 
