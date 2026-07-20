@@ -14,7 +14,7 @@ function tampilkanLaporan(nama, umur, daftarHarga) {
     if (totalHarga >= 30000) {
         status = "Selamat! Anda mendapatkan diskon.";
     } else {
-        status = "Belanja lagi agar mendapat diskon";
+        status = "Belanja lagi agar mendapat diskon.";
     }
 
     console.log(`Nama        : ${nama}`);
