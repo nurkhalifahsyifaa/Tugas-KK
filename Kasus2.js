@@ -46,6 +46,7 @@ const daftarSiswa = [
     new SiswaTelkom("ira", 45),
     new SiswaTelkom("sila", 88)
 ];
+
 let jumlahTidakLulus = 0;
 let jumlahLulus = 0;
 
@@ -53,7 +54,7 @@ for (let i = 0; i < daftarSiswa.length; i++) {
     daftarSiswa[i].tampilkanData();
     console.log(""); 
 }
-if (daftarSiswa[i].status === "Tidak Lulus") {
+    if (daftarSiswa[i].status === "Tidak Lulus") {
         jumlahTidakLulus++;
     } else {
         jumlahLulus++;
