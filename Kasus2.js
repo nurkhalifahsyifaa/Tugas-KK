@@ -41,12 +41,17 @@ cekKelulusan() {
 }
     }
 const siswa1 = new SiswaTelkom("andi", 90);
-const siswa2 = new SiswaTelkom("syifaa", 75);
-const siswa3 = new SiswaTelkom("cika", 60);
-const siswa4 = new SiswaTelkom("ira", 45);
-const siswa5 = new SiswaTelkom("sila", 88);
 siswa1.tampilkanData();
+console.log("");
+const siswa2 = new SiswaTelkom("syifaa", 75);
 siswa2.tampilkanData();
+console.log("");
+const siswa3 = new SiswaTelkom("cika", 60);
 siswa3.tampilkanData();
+console.log("");
+const siswa4 = new SiswaTelkom("ira", 45);
 siswa4.tampilkanData();
+console.log("");
+const siswa5 = new SiswaTelkom("sila", 88);
 siswa5.tampilkanData();
+console.log("");
