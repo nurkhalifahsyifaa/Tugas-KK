@@ -23,18 +23,9 @@ function tampilkanLaporan(nama, umur, daftarHarga) {
     console.log("");
 }
 const dataPelanggan = [
-    {
-        nama: "Budi",
-        umur: 20,
-        harga: [12000, 17500]
-    },
-    {
-        nama: "Koti",
-        umur: 37,
-        harga: [37800, 42500]
-    },
-];
-
+    { nama: "Budi", umur: 20, harga: [12000, 17500] }, 
+    { nama: "Koti", umur: 37, harga: [37800, 42500] }
+]
 for (let i = 0; i < dataPelanggan.length; i++) {
     tampilkanLaporan(
         dataPelanggan[i].nama, 
