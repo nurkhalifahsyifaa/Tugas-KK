@@ -21,7 +21,7 @@ const dataHero = [
 for (let i = 0; i < dataHero.length; i++) {
     let nama = dataHero[i].nama;
     let status = "";
-    if (nama.startsWith("F") || nama.startsWith("f")) {
+    if (nama.startsWith("F")) {
         status = "Hero Assassin/Tank Favorit";
     } else {
         status = "Hero Biasa.";
